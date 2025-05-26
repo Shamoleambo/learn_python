@@ -1,5 +1,3 @@
-num1 = input("Enter the first number: ")
-num2 = input("Enter the second number: ")
+list_of_things = [1, True, "Kevin"]
 
-num = float(num1) + float(num2)
-print("Result = " + str(num))
+print(list_of_things)

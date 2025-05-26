@@ -1,2 +1,5 @@
-name = input("Enter your name: ")
-print("Hello " + name + "!")
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+num = int(num1) + int(num2)
+print("Result = " + str(num))

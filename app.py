@@ -1,1 +1,3 @@
-print(pow(2,10))
+from math import *
+
+print(floor(3.4))

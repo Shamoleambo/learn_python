@@ -1,6 +1,6 @@
-list_of_things = [1, True, "Kevin"]
+favorite_numbers = [1, 2, 3, 4, 7, 11, 12, 14, 17, 18, 21, 22, 23, 24, 27]
+favorite_letters = ["a", "f", "h", "l", "m", "r", "s", "t", "v"]
 
-print(list_of_things[-2])
-print(list_of_things[-3])
-print(list_of_things[-1])
-print(list_of_things[-4])
+favorite_letters.extend(favorite_numbers)
+print (favorite_numbers)
+print(favorite_letters)

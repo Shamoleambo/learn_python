@@ -1,5 +1,3 @@
-character_name = "John"
-character_age = "35"
+any_string = "meu Mano, como está?"
 
-print("My name is " + character_name + "!")
-print("I am " + character_age + " years old")
+print(any_string.upper().isupper())

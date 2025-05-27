@@ -1,19 +1,7 @@
-signs_conversions = {
-    "ari": "Aries",
-    "tau": "Taurus",
-    "gem": "Gemini",
-    "can": "Cancer",
-    "leo": "Leo",
-    "vir": "Virgo",
-    "lib": "Libra",
-    "sco": "Scorpio",
-    "sag": "Sagittarius",
-    "cap": "Capricorn",
-    "aqu": "Aquarius",
-    "pis": "Pisces"
-}
+i = 1
 
-print(signs_conversions)
-print(signs_conversions["can"])
-print(signs_conversions.get("vir"))
-print(signs_conversions.get("mano", "super sign"))
+while i <= 12:
+    print(i)
+    i += 1
+
+print("\nI am done")

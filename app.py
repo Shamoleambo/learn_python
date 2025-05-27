@@ -1,10 +1,19 @@
-is_animal = True
-is_cat = True
-is_cute = True
+signs_conversions = {
+    "ari": "Aries",
+    "tau": "Taurus",
+    "gem": "Gemini",
+    "can": "Cancer",
+    "leo": "Leo",
+    "vir": "Virgo",
+    "lib": "Libra",
+    "sco": "Scorpio",
+    "sag": "Sagittarius",
+    "cap": "Capricorn",
+    "aqu": "Aquarius",
+    "pis": "Pisces"
+}
 
-if is_animal and not is_cat:
-    print("You are a animal, but not a cat. Not a cat indeed")
-elif is_animal and is_cat and is_cute:
-    print("You are a cute cat")
-else:
-    print("You are not a cat neither an animal, what are you?")
+print(signs_conversions)
+print(signs_conversions["can"])
+print(signs_conversions.get("vir"))
+print(signs_conversions.get("mano", "super sign"))

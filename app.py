@@ -1,5 +1,5 @@
-cats_file = open("cats.txt", "a")
+cats_file = open("cats.txt", "w")
 
-cats_file.write("\nZuzu (RIP) - Siamese")
+cats_file.write("Stop smoking")
 
 cats_file.close()

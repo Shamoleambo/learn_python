@@ -1,4 +1,4 @@
-import useful_stuff
+from Student import Student
 
-random_number = useful_stuff.roll_dice(9)
-print(random_number)
+student  = Student("Mano", 23, "Super Hero", 4.4)
+print(student.name)

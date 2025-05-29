@@ -1,5 +1,4 @@
-cats_file = open("things_to_do.txt", "w")
+import useful_stuff
 
-cats_file.write("Stop smoking")
-
-cats_file.close()
+random_number = useful_stuff.roll_dice(9)
+print(random_number)
